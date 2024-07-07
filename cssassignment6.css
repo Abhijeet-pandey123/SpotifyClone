@@ -1,0 +1,60 @@
+
+.div{
+    height: 500px;
+    width: 80%;
+    
+    margin:auto;
+    position: relative;
+    top: 10px;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 10px;
+}
+#one{
+  /* start-row:: */
+  grid-column:1/13;
+  background-color: pink;
+}
+#two{
+    grid-row:2/12;
+    grid-column: 1/4;
+    background-color: pink;
+}
+#three{
+    grid-row-start:2;
+    grid-column:4/10;
+    background-color: pink;
+}
+ #four{
+    grid-row:2/12;
+    grid-column: 10/13;
+    background-color: pink;
+}
+#five{
+    grid-row:3/12;
+    grid-column: 4/10;
+    background-color: pink;
+} 
+#six{
+    grid-row:12/13;
+    grid-column: 1/13;
+    background-color: pink;
+} 
+#divsecond{
+    height: 120px;
+    width: 120px;
+    border :16px solid #f3f3f3;
+    border-right :16px solid goldenrod;
+    border-radius: 50%;
+    animation:spin 2s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,28 @@
+h1 {
+    border-width: 2px;
+    border-color: brown;
+    border-style: double;
+}
+div {
+    border-color: black;
+    /* border-width:5px; */
+    border-style: solid;
+    /* border-color:aquamarine; */
+    height:200px;
+    width: 500px;
+   background-color: pink;
+   border:6px solid black;
+   border-left-color: brown;
+   border-left-style: dotted;
+   border-radius: 10px 100px / 200px;
+   padding: 40px;
+   margin: 10px 20px 30px;
+}
+button{
+    background-color: aqua;
+    color:white;
+    border:5px solid darkblue;
+    border-radius: 20px;
+    padding:0 20px 0 20px;
+    
+}

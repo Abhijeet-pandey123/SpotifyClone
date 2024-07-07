@@ -1,0 +1,33 @@
+*{
+    font-family: 'Courier New';
+}
+h1{
+    color: #1b74e4;
+}
+#searchbtn{
+    background-color: black;
+    color:white;
+}
+.userbtn{
+    background-color: aqua;
+}
+#divmajor{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    
+}
+#divmajor div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}#yellow{
+    background-color:yellow;
+}#green{
+    background-color: green;
+}
